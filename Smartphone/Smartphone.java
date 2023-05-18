@@ -15,11 +15,11 @@ public class Smartphone {
         System.out.println("* Memória de Armazenamento: " + memoriaInterna);
         System.out.println("* Memória RAM: " + memoriaRam);
         System.out.println("* Processador: " + processador);
-        System.out.println("* Câmera: " + cameraFrontal);
-        System.out.println("* Câmera: " + cameraTraseira);
+        System.out.println("* Câmera Frontal: " + cameraFrontal);
+        System.out.println("* Câmera Traseira: " + cameraTraseira);
         System.out.println("* Sistema Operacional: " + sistemaOperacional);
         
-        System.out.println("*******************************");
+        System.out.println("*******************************\n\n\n");
     }
     public void printStatus(Smartphone smartphone) {
         System.out.println("----------------------------------");
@@ -28,8 +28,8 @@ public class Smartphone {
         System.out.println("• Memória de Armazenamento: " + memoriaInterna);
         System.out.println("• Memória RAM: " + memoriaRam);
         System.out.println("• Processador: " + processador);
-        System.out.println("• Câmera: " + cameraFrontal);
-        System.out.println("• Câmera: " + cameraTraseira);
+        System.out.println("• Câmera Frontal: " + cameraFrontal);
+        System.out.println("• Câmera Traseira: " + cameraTraseira);
         System.out.println("• Sistema Operacional: " + sistemaOperacional);
         
         System.out.println("----------------------------------");
@@ -62,8 +62,6 @@ public class Smartphone {
 
 
         smart1.printStatus();
-
-
         smart2.printStatus(smart2);
     }
 }
